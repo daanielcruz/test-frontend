@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
   --color-background: #F6F6F6;
   --color-primary: #00A536;
   --color-text-primary: #0B132A;
+  --color-text-secondary: #4F5665;
   --color-text-in-button: #FFF;
 
 }
