@@ -28,19 +28,19 @@ const MainFeaturesSection: React.FC = () => {
             Com a Loocal você possui total controle sobre suas entregas.
           </Slogan>
           <Features>
-            <Feature>
+            <Feature animateIn="fadeIn" duration={0.8}>
               <img src={checkedCircle} alt="Checado" />
               <span>Insira créditos na plataforma de modo pré-pago</span>
             </Feature>
-            <Feature>
+            <Feature animateIn="fadeIn" duration={0.8} delay={500}>
               <img src={checkedCircle} alt="Checado" />
               <span>Entregadores segmentados por região</span>
             </Feature>
-            <Feature>
+            <Feature animateIn="fadeIn" duration={0.8} delay={1000}>
               <img src={checkedCircle} alt="Checado" />
               <span>Dashboard completa com métricas sobre vendas</span>
             </Feature>
-            <Feature>
+            <Feature animateIn="fadeIn" duration={0.8} delay={1500}>
               <img src={checkedCircle} alt="Checado" />
               <span>Acompanhamento em tempo real do seu pedido</span>
             </Feature>

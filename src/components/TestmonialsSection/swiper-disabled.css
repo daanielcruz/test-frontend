@@ -1,0 +1,4 @@
+.swiper-disabled {
+  cursor: unset !important;
+  opacity: 0.2 !important;
+}

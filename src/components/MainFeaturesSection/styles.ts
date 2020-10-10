@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export const Container = styled.section`
   display: flex;
@@ -43,8 +44,8 @@ export const ImgContainer = styled.div`
   height: 100%;
   @media (min-width: 992px) {
     justify-content: flex-start;
-    align-items: flex-start;
-    margin-top: -10px;
+    align-items: flex-end;
+    margin-bottom: -60px;
   }
 `;
 
@@ -88,7 +89,7 @@ export const Features = styled.div`
   }
 `;
 
-export const Feature = styled.div`
+export const Feature = styled(ScrollAnimation)`
   display: flex;
   align-items: center;
 

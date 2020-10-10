@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Swiper, { Navigation } from "swiper";
 import "swiper/swiper-bundle.css";
+import "./swiper-disabled.css";
 
 import api from "../../services/api";
 
@@ -47,13 +48,14 @@ const TestmonialsSection: React.FC = () => {
         setIsLoading(false);
 
         Swiper.use([Navigation]);
-        const swiper = new Swiper(".swiper-container", {
+        new Swiper(".swiper-container", {
           slidesPerView: "auto",
           spaceBetween: 50,
           slidesOffsetAfter: 200,
           navigation: {
             nextEl: ".swiper-next",
             prevEl: ".swiper-prev",
+            disabledClass: "swiper-disabled",
           },
         });
       } catch (e) {

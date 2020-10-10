@@ -17,7 +17,7 @@ const SecondaryFeaturesSection: React.FC = () => {
   return (
     <Container>
       <Content>
-        <Feature>
+        <Feature animateIn="fadeInLeft" duration={1}>
           <FeatureImg src={userCircle} />
           <FeatureTextContainer>
             <strong>900+</strong>
@@ -25,7 +25,7 @@ const SecondaryFeaturesSection: React.FC = () => {
           </FeatureTextContainer>
         </Feature>
         <Divider />
-        <Feature>
+        <Feature animateIn="fadeIn" duration={1} delay={500}>
           <FeatureImg src={locationCircle} />
           <FeatureTextContainer>
             <strong>300+</strong>
@@ -33,7 +33,7 @@ const SecondaryFeaturesSection: React.FC = () => {
           </FeatureTextContainer>
         </Feature>
         <Divider />
-        <Feature>
+        <Feature animateIn="fadeInRight" duration={1}>
           <FeatureImg src={serverCircle} />
           <FeatureTextContainer>
             <strong>+70%</strong>

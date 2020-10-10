@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export const Container = styled.section`
   display: flex;
@@ -29,7 +30,7 @@ export const Content = styled.div`
   }
 `;
 
-export const Feature = styled.div`
+export const Feature = styled(ScrollAnimation)`
   display: flex;
   align-items: center;
   height: 100px;
