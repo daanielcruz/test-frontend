@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.header`
+export const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,9 +42,9 @@ export const ImgContainer = styled.div`
   justify-content: center;
   height: 100%;
   @media (min-width: 992px) {
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin-bottom: -10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: -10px;
   }
 `;
 
@@ -57,27 +57,16 @@ export const Title = styled.h1`
   font-weight: 500;
   font-size: 24px;
 
-  > span {
-    font-size: 24px;
-  }
-
   @media (min-width: 992px) {
     text-align: unset;
     font-weight: 500;
     font-size: 35px;
     line-height: 55px;
-
-    > span {
-      font-size: 35px;
-    }
   }
 
   @media (min-width: 1200px) {
     font-size: 50px;
     line-height: 70px;
-    > span {
-      font-size: 50px;
-    }
   }
 `;
 
@@ -86,6 +75,7 @@ export const Slogan = styled.span`
   line-height: 30px;
   margin-top: 15px;
   margin-bottom: 15px;
+  color: var(--color-text-secondary);
 
   @media (min-width: 992px) {
     text-align: unset;
@@ -101,6 +91,10 @@ export const Features = styled.div`
 export const Feature = styled.div`
   display: flex;
   align-items: center;
+
+  > span {
+    color: var(--color-text-secondary);
+  }
 
   > img {
     margin-right: 12px;

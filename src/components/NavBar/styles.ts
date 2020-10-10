@@ -47,8 +47,10 @@ export const NavLinks = styled.ul`
   background: #d7d7d7;
   width: 100%;
   height: 40vh;
-  transition: transform 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
   padding-top: 10vh;
+  box-shadow: ${({ open }: { open: boolean }) =>
+    open ? "0 50px 80px rgba(0, 0, 0, 0.5)" : "none"};
 
   > li {
     list-style: none;
@@ -69,6 +71,7 @@ export const NavLinks = styled.ul`
     transition: unset;
     width: unset;
     height: unset;
+    box-shadow: unset;
 
     > li {
       padding: 0;

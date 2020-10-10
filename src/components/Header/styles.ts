@@ -12,11 +12,12 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   width: 100%;
 
   @media (min-width: 992px) {
     padding: 5% 0 0 0;
+    align-items: flex-end;
     flex-direction: row;
     width: 880px;
   }
@@ -71,6 +72,7 @@ export const Slogan = styled.span`
   text-align: center;
   line-height: 30px;
   margin-top: 20px;
+  color: var(--color-text-secondary);
 
   @media (min-width: 992px) {
     text-align: unset;

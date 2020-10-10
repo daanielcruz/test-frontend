@@ -51,6 +51,7 @@ export const FeatureTextContainer = styled.div`
 
   > span {
     font-size: 17px;
+    color: var(--color-text-secondary);
   }
 
   @media (min-width: 1200px) {

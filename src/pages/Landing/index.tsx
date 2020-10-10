@@ -4,6 +4,7 @@ import NavBar from "../../components/NavBar";
 import Header from "../../components/Header";
 import SecondaryFeaturesSection from "../../components/SecondaryFeaturesSection";
 import MainFeaturesSection from "../../components/MainFeaturesSection";
+import TestmonialsSection from "../../components/TestmonialsSection";
 
 const Landing: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const Landing: React.FC = () => {
       <Header />
       <SecondaryFeaturesSection />
       <MainFeaturesSection />
+      <TestmonialsSection />
     </>
   );
 };
