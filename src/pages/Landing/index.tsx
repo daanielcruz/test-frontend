@@ -6,6 +6,7 @@ import SecondaryFeaturesSection from "../../components/SecondaryFeaturesSection"
 import MainFeaturesSection from "../../components/MainFeaturesSection";
 import TestmonialsSection from "../../components/TestmonialsSection";
 import ConvertionSection from "../../components/ConvertionSection";
+import Footer from "../../components/Footer";
 
 const Landing: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const Landing: React.FC = () => {
       <MainFeaturesSection />
       <TestmonialsSection />
       <ConvertionSection />
+      <Footer />
     </>
   );
 };

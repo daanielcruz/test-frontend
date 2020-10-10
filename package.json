@@ -1,7 +1,12 @@
 {
   "name": "loocal",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
+  "author": {
+    "name": "Daniel Cruz",
+    "email": "public@danielcruz.dev.br",
+    "url": "https://danielcruz.dev.br"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
