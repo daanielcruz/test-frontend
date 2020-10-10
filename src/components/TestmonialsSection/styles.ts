@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
-  margin-bottom: 50px;
-`;
+export const Container = styled.section``;
 
 export const CenterContent = styled.div`
   display: flex;
