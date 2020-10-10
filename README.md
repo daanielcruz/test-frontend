@@ -1,44 +1,92 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+Teste front-end | Espero que gostem <3 :exclamation:
+</h1>
 
-## Available Scripts
+<p align="center">
+<a href="https://www.linkedin.com/in/danielfercruz/">
+<img alt="Made by daanielcruz" src="https://img.shields.io/badge/made%20by-daanielcruz-%23282C34?style=flat-square">
+</a>
 
-In the project directory, you can run:
+<img alt="language" src="https://img.shields.io/badge/Language-pt_BR-%23282C34.svg?style=flat-square">
+<img alt="typescript" src="https://img.shields.io/badge/-TypeScript-%23282C34?style=flat-square&logo=typescript&logoColor=007bcd">
+<img alt="react-js" src="https://img.shields.io/badge/-ReactJS-%23282C34?style=flat-square&logo=react">
 
-### `yarn start`
+</p>
+<p align="center">
+  <a href="#-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-por-que">Por que?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-rodar">Como rodar?</a>&nbsp;&nbsp;&nbsp;
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Deploy
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/48bc5cff-dde8-4807-a8a0-4a0db8ecb9bc/deploy-status)](https://app.netlify.com/sites/test-frontend-code/deploys)
 
-### `yarn test`
+https://test-frontend-code.netlify.app/
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔧 Tecnologias
 
-### `yarn build`
+O projeto foi desenvolvido com as seguintes tecnologias:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [ReactJS][react]
+- [TypeScript][typescript]
+- [Styled-Components][styled-components]
+- [Axios][axios]
+- [Animate.CSS][animate-css]
+- [Swiper][swiper]
+- [ESLint][eslint]
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## ❓ Por que
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">
+<ul>
+  <li>Typescript:</li> 
+  <p> Escolhi o TypeScript pois facilita nossa vida, hehehe... não nos permite cometer certos erros, dá um boost na escalabilidade do projeto e facilita o trabalho em equipe... e o boost perfeito na intellisense do VSCode, maravilhoso, não? </p>
+  <li>Styled-Componentes:</li> 
+  <p>Foi pedido no projeto, deixa nosso projeto mais organizado e... CSS in JS é top demais, né?</p>
+  <li>Axios:</li> 
+  <p>Este também facilita nossa vida, nos poupando de reinventar a roda, além de estar no HYPE da galera kkk.</p>
+    <li>SwiperJS e Animate.CSS:</li> 
+  <p>Libs já consolidadas que facilitaram minha vida, além de receberem manutenções constantes <3. </p>
+</ ul>
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## ❓ Como rodar
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para clonar e rodar esta aplicação, você vai precisar: [Git](https://git-scm.com), [Node.js][nodejs] e [Yarn].
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Instalação simples
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+# Clone o repo
+$ git clone https://github.com/daanielcruz/test-frontend
 
-## Learn More
+# Entre na pasta
+$ cd test-frontend
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Instale as dependencias
+$ yarn install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Starte o projeto React =)
+$ yarn start
+
+
+# O projeto deve abrir agora...
+```
+
+Feito com ♥ por Daniel Cruz :wave: [Chega +!](https://www.linkedin.com/in/danielfercruz/)
+
+[react]: https://reactjs.org
+[nodejs]: https://nodejs.org/en/
+[typescript]: https://www.typescriptlang.org/
+[styled-components]: https://styled-components.com/
+[swiper]: https://swiperjs.com/
+[axios]: https://github.com/axios/axios
+[animate-css]: https://animate.style/
+[yarn]: https://yarnpkg.com/
+[vs]: https://code.visualstudio.com/
+[eslint]: https://eslint.org/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode

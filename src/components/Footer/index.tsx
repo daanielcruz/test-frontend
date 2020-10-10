@@ -38,48 +38,48 @@ const Footer: React.FC = () => {
         <NavLinks>
           <Column>
             <strong>Sistema Loocal</strong>
-            <li>
-              <Link to="/">Guia rápido</Link>
-            </li>
-            <li>
-              <Link to="/">FAQ</Link>
-            </li>
-            <li>
-              <Link to="/">Tutoriais</Link>
-            </li>
-            <li>
-              <Link to="/">Política de privacidade</Link>
-            </li>
-            <li>
-              <Link to="/">Termos de serviço</Link>
-            </li>
+            <Link to="/">
+              <li>Guia rápido</li>
+            </Link>
+            <Link to="/">
+              <li>FAQ</li>
+            </Link>
+            <Link to="/">
+              <li>Tutoriais</li>
+            </Link>
+            <Link to="/">
+              <li>Política de privacidade</li>
+            </Link>
+            <Link to="/">
+              <li>Termos de serviço</li>
+            </Link>
           </Column>
           <Column>
             <strong>Para entregadores</strong>
-            <li>
-              <Link to="/">Aplicativo móvel</Link>
-            </li>
-            <li>
-              <Link to="/">FAQ</Link>
-            </li>
-            <li>
-              <Link to="/">Tutoriais</Link>
-            </li>
-            <li>
-              <Link to="/">Política de privacidade</Link>
-            </li>
-            <li>
-              <Link to="/">Termos de serviço</Link>
-            </li>
+            <Link to="/">
+              <li>Aplicativo móvel</li>
+            </Link>
+            <Link to="/">
+              <li>FAQ</li>
+            </Link>
+            <Link to="/">
+              <li>Tutoriais</li>
+            </Link>
+            <Link to="/">
+              <li>Política de privacidade</li>
+            </Link>
+            <Link to="/">
+              <li>Termos de serviço</li>
+            </Link>
           </Column>
           <Column>
             <strong>Sobre</strong>
-            <li>
-              <Link to="/">Equipe</Link>
-            </li>
-            <li>
-              <Link to="/">Novidades</Link>
-            </li>
+            <Link to="/">
+              <li>Equipe</li>
+            </Link>
+            <Link to="/">
+              <li>Novidades</li>
+            </Link>
           </Column>
         </NavLinks>
       </Content>

@@ -119,15 +119,16 @@ export const Column = styled.ul`
     margin-bottom: 10px;
   }
 
-  > li {
-    list-style: none;
-    margin-top: 10px;
-    > a {
-      color: var(--color-text-secondary);
-      text-decoration: none;
-      line-height: 30px;
-      transition: 0.3s;
+  > a {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    line-height: 30px;
+    transition: 0.3s;
 
+    > li {
+      list-style: none;
+      margin-top: 10px;
+      color: var(--color-text-secondary);
       &:hover {
         color: var(--color-primary);
         opacity: 0.8;

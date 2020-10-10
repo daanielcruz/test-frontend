@@ -32,15 +32,15 @@ const MainFeaturesSection: React.FC = () => {
               <img src={checkedCircle} alt="Checado" />
               <span>Insira créditos na plataforma de modo pré-pago</span>
             </Feature>
-            <Feature animateIn="fadeIn" duration={0.8} delay={500}>
+            <Feature animateIn="fadeIn" duration={0.8} delay={300}>
               <img src={checkedCircle} alt="Checado" />
               <span>Entregadores segmentados por região</span>
             </Feature>
-            <Feature animateIn="fadeIn" duration={0.8} delay={1000}>
+            <Feature animateIn="fadeIn" duration={0.8} delay={600}>
               <img src={checkedCircle} alt="Checado" />
               <span>Dashboard completa com métricas sobre vendas</span>
             </Feature>
-            <Feature animateIn="fadeIn" duration={0.8} delay={1500}>
+            <Feature animateIn="fadeIn" duration={0.8} delay={800}>
               <img src={checkedCircle} alt="Checado" />
               <span>Acompanhamento em tempo real do seu pedido</span>
             </Feature>

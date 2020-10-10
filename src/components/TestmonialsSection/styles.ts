@@ -65,7 +65,7 @@ export const Slogan = styled.span`
 
 export const LoadingContainer = styled.div`
   display: flex;
-  flex: 1;
+  width: 100%;
   justify-content: center;
   align-items: center;
   height: 180px;
