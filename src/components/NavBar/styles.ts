@@ -1,9 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.nav`
-  padding: 5% 8%;
   display: flex;
-  width: 100vw;
+  justify-content: center;
+`;
+
+export const Content = styled.div`
+  padding: 5% 8% 10%;
+  display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
 
@@ -15,8 +20,8 @@ export const Container = styled.nav`
   }
 
   @media (min-width: 992px) {
-    padding: 44px;
-    justify-content: space-around;
+    width: 880px;
+    padding: 44px 0 0 0;
     > a {
       > img {
         width: 122px;
@@ -24,12 +29,16 @@ export const Container = styled.nav`
       }
     }
   }
+
+  @media (min-width: 1200px) {
+    width: 1140px;
+  }
 `;
 
 export const NavLinks = styled.ul`
   position: absolute;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   top: 0;
   right: 0;
   flex-direction: column;
@@ -37,21 +46,22 @@ export const NavLinks = styled.ul`
     open ? "translateX(0)" : "translateX(-100%)"};
   background: #d7d7d7;
   width: 100%;
-  height: 100vh;
+  height: 40vh;
   transition: transform 0.3s ease-in-out;
-  justify-content: center;
+  padding-top: 10vh;
+
   > li {
     list-style: none;
-    padding-bottom: 10%;
+    padding: 0 5% 5% 0;
     > a {
       text-align: center;
       text-decoration: none;
       text-transform: uppercase;
-      font-weight: bold;
     }
   }
 
   @media (min-width: 992px) {
+    padding: 0;
     position: relative;
     background: unset;
     flex-direction: unset;

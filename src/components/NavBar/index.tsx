@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import logoImg from "../../assets/img/logo.svg";
 
-import { Container, NavLinks, Burger } from "./styles";
+import { Container, Content, NavLinks, Burger } from "./styles";
 
 const NavBar: React.FC = () => {
   const [open, setOpen] = useState(false);
@@ -14,25 +14,27 @@ const NavBar: React.FC = () => {
 
   return (
     <Container>
-      <Burger open={open} onClick={handleOpenMenu}>
-        <div />
-        <div />
-        <div />
-      </Burger>
-      <Link to="/">
-        <img src={logoImg} alt="Logo" />
-      </Link>
-      <NavLinks open={open}>
-        <li>
-          <Link to="/">Sobre</Link>
-        </li>
-        <li>
-          <Link to="/">Testemunhos</Link>
-        </li>
-        <li>
-          <Link to="/">Área do comerciante</Link>
-        </li>
-      </NavLinks>
+      <Content>
+        <Burger open={open} onClick={handleOpenMenu}>
+          <div />
+          <div />
+          <div />
+        </Burger>
+        <Link to="/">
+          <img src={logoImg} alt="Logo" />
+        </Link>
+        <NavLinks open={open}>
+          <li>
+            <Link to="/">Sobre</Link>
+          </li>
+          <li>
+            <Link to="/">Testemunhos</Link>
+          </li>
+          <li>
+            <Link to="/">Área do comerciante</Link>
+          </li>
+        </NavLinks>
+      </Content>
     </Container>
   );
 };
