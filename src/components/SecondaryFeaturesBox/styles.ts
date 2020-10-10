@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
-export const FeaturesBox = styled.section`
+export const Container = styled.section`
   display: flex;
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 50px;
 `;
 
-export const Features = styled.div`
+export const Content = styled.div`
   box-shadow: 0 90px 114px rgb(13, 16, 37, 0.1);
   border-radius: 10px;
   display: flex;

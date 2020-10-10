@@ -3,7 +3,7 @@ import React from "react";
 import presentationImg from "../../assets/img/illustration-header.svg";
 
 import {
-  StyledHeader,
+  Container,
   Content,
   Presentation,
   ImgContainer,
@@ -15,7 +15,7 @@ import {
 
 const Header: React.FC = () => {
   return (
-    <StyledHeader>
+    <Container>
       <Content>
         <Presentation>
           <Title>
@@ -34,7 +34,7 @@ const Header: React.FC = () => {
           <PresentationImg src={presentationImg} alt="Imagem de Apresentação" />
         </ImgContainer>
       </Content>
-    </StyledHeader>
+    </Container>
   );
 };
 

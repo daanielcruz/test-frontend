@@ -5,8 +5,8 @@ import locationCircle from "../../assets/img/location-circle.svg";
 import serverCircle from "../../assets/img/server-circle.svg";
 
 import {
-  FeaturesBox,
-  Features,
+  Container,
+  Content,
   Feature,
   FeatureImg,
   FeatureTextContainer,
@@ -15,8 +15,8 @@ import {
 
 const SecondaryFeaturesBox: React.FC = () => {
   return (
-    <FeaturesBox>
-      <Features>
+    <Container>
+      <Content>
         <Feature>
           <FeatureImg src={userCircle} />
           <FeatureTextContainer>
@@ -40,8 +40,8 @@ const SecondaryFeaturesBox: React.FC = () => {
             <span>Conversão</span>
           </FeatureTextContainer>
         </Feature>
-      </Features>
-    </FeaturesBox>
+      </Content>
+    </Container>
   );
 };
 
