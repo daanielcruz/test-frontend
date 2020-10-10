@@ -12,7 +12,7 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   width: 100%;
 
   @media (min-width: 992px) {
@@ -112,6 +112,7 @@ export const ImgContainer = styled.div`
   @media (min-width: 992px) {
     justify-content: flex-end;
     align-items: flex-end;
+    margin-bottom: -10px;
   }
 `;
 

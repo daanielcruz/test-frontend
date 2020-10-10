@@ -4,7 +4,6 @@ export const Container = styled.section`
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  margin-bottom: 50px;
 `;
 
 export const Content = styled.div`

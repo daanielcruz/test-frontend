@@ -13,7 +13,7 @@ import {
   Divider,
 } from "./styles";
 
-const SecondaryFeaturesBox: React.FC = () => {
+const SecondaryFeaturesSection: React.FC = () => {
   return (
     <Container>
       <Content>
@@ -45,4 +45,4 @@ const SecondaryFeaturesBox: React.FC = () => {
   );
 };
 
-export default SecondaryFeaturesBox;
+export default SecondaryFeaturesSection;
