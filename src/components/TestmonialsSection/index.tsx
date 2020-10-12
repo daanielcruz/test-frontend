@@ -89,7 +89,13 @@ const TestmonialsSection: React.FC = () => {
         <TestmonialsContainer className="swiper-container">
           <TestmonialsWrapper className="swiper-wrapper">
             {peoples.map(({ firstname, lastname, image, website }) => (
-              <Testmonial className="swiper-slide" key={firstname + lastname}>
+              <Testmonial
+                href={website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="swiper-slide"
+                key={firstname + lastname}
+              >
                 <TestmonialTopItems>
                   <TestmonialPeopleImg src={image} alt={firstname} />
                   <TestmonialPeopleInfo>

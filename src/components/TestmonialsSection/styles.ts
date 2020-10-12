@@ -101,7 +101,7 @@ export const TestmonialsContainer = styled.div`
 
 export const TestmonialsWrapper = styled.div``;
 
-export const Testmonial = styled.div`
+export const Testmonial = styled.a`
   padding: 15px;
   border: 2px solid #dddddd;
   display: flex;
@@ -109,11 +109,16 @@ export const Testmonial = styled.div`
   width: 360px;
   height: 180px;
   border-radius: 10px;
+  text-decoration: none;
+  transition: border 0.3s;
 
   @media (min-width: 992px) {
     padding: 30px;
     width: 400px;
     height: 230px;
+    &:hover {
+      border-color: var(--color-primary);
+    }
   }
 `;
 
