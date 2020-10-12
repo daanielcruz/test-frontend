@@ -2,13 +2,15 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const Container = styled.section`
+  position: relative;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  background: transparent;
 `;
 
 export const Content = styled.div`
+  position: absolute;
+  top: -104px;
   padding: 15px 30px;
   box-shadow: 0 90px 114px rgb(13, 16, 37, 0.1);
   border-radius: 10px;
@@ -17,6 +19,7 @@ export const Content = styled.div`
   justify-content: center;
   align-items: center;
   width: 80%;
+  background: var(--color-background);
 
   @media (min-width: 992px) {
     justify-content: space-between;
@@ -24,11 +27,13 @@ export const Content = styled.div`
     flex-direction: row;
     padding: 30px 40px;
     width: 880px;
+    top: -104px;
   }
 
   @media (min-width: 1200px) {
     padding: 40px 100px;
     width: 1140px;
+    top: -110px;
   }
 `;
 

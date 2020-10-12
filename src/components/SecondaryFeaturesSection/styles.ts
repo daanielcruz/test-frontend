@@ -5,6 +5,7 @@ export const Container = styled.section`
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  background: var(--color-background);
 `;
 
 export const Content = styled.div`
@@ -34,6 +35,7 @@ export const Feature = styled(ScrollAnimation)`
   display: flex;
   align-items: center;
   height: 100px;
+  min-width: 203px;
 `;
 
 export const FeatureImg = styled.img`

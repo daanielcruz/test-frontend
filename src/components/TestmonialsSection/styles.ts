@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
-export const Container = styled.section``;
+export const Container = styled.section`
+  background: var(--color-background-secondary);
+  padding-bottom: 150px;
+`;
 
 export const CenterContent = styled.div`
   display: flex;

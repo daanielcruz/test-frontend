@@ -4,8 +4,13 @@ import { Link } from "react-router-dom";
 export const Container = styled.footer`
   display: flex;
   justify-content: center;
-  background-color: var(--color-background-secondary);
-  padding-bottom: 110px;
+  background-color: var(--color-background-tertiary);
+  padding-bottom: 5%;
+  padding-top: 200px;
+
+  @media (min-width: 992px) {
+    padding-top: 150px;
+  }
 `;
 
 export const Content = styled.div`
