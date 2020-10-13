@@ -37,49 +37,55 @@ const Footer: React.FC = () => {
         </AboutLoocal>
         <NavLinks>
           <Column>
-            <strong>Sistema Loocal</strong>
-            <Link to="/">
-              <li>Guia rápido</li>
-            </Link>
-            <Link to="/">
-              <li>FAQ</li>
-            </Link>
-            <Link to="/">
-              <li>Tutoriais</li>
-            </Link>
-            <Link to="/">
-              <li>Política de privacidade</li>
-            </Link>
-            <Link to="/">
-              <li>Termos de serviço</li>
-            </Link>
+            <li>
+              <strong>Sistema Loocal</strong>
+            </li>
+            <li>
+              <Link to="/">Guia rápido</Link>
+            </li>
+            <li>
+              <Link to="/">FAQ</Link>
+            </li>
+            <li>
+              <Link to="/">Tutoriais</Link>
+            </li>
+            <li>
+              <Link to="/">Política de privacidade</Link>
+            </li>
+            <li>
+              <Link to="/">Termos de serviço</Link>
+            </li>
           </Column>
           <Column>
-            <strong>Para entregadores</strong>
-            <Link to="/">
-              <li>Aplicativo móvel</li>
-            </Link>
-            <Link to="/">
-              <li>FAQ</li>
-            </Link>
-            <Link to="/">
-              <li>Tutoriais</li>
-            </Link>
-            <Link to="/">
-              <li>Política de privacidade</li>
-            </Link>
-            <Link to="/">
-              <li>Termos de serviço</li>
-            </Link>
+            <li>
+              <strong>Para entregadores</strong>
+            </li>
+            <li>
+              <Link to="/">Aplicativo móvel</Link>
+            </li>
+            <li>
+              <Link to="/">FAQ</Link>
+            </li>
+            <li>
+              <Link to="/">Tutoriais</Link>
+            </li>
+            <li>
+              <Link to="/">Política de privacidade</Link>
+            </li>
+            <li>
+              <Link to="/">Termos de serviço</Link>
+            </li>
           </Column>
           <Column>
-            <strong>Sobre</strong>
-            <Link to="/">
-              <li>Equipe</li>
-            </Link>
-            <Link to="/">
-              <li>Novidades</li>
-            </Link>
+            <li>
+              <strong>Sobre</strong>
+            </li>
+            <li>
+              <Link to="/">Equipe</Link>
+            </li>
+            <li>
+              <Link to="/">Novidades</Link>
+            </li>
           </Column>
         </NavLinks>
       </Content>

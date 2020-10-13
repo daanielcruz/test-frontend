@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import logoImg from "../../assets/img/logo.svg";
@@ -7,6 +7,14 @@ import { Container, Content, NavLinks, Burger } from "./styles";
 
 const NavBar: React.FC = () => {
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+  }, [open]);
 
   const handleOpenMenu = useCallback(() => {
     setOpen((state) => !state);

@@ -11,7 +11,7 @@ export const Container = styled.section`
 export const Content = styled.div`
   position: absolute;
   top: -104px;
-  padding: 15px 30px;
+  padding: 30px 30px;
   box-shadow: 0 90px 114px rgb(13, 16, 37, 0.1);
   border-radius: 10px;
   display: flex;
@@ -23,7 +23,6 @@ export const Content = styled.div`
 
   @media (min-width: 992px) {
     justify-content: space-between;
-    padding: 30px 30px;
     flex-direction: row;
     padding: 30px 40px;
     width: 880px;
@@ -82,7 +81,7 @@ export const Slogan = styled.span`
 `;
 
 export const ConversionButton = styled(Link)`
-  margin: 25px 0;
+  margin-top: 25px;
   width: 200px;
   height: 50px;
   background: var(--color-primary);
