@@ -43,7 +43,7 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 <ul>
   <li>Typescript:</li> 
   <p> Escolhi o TypeScript pois facilita nossa vida, hehehe... não nos permite cometer certos erros, dá um boost na escalabilidade do projeto e facilita o trabalho em equipe... e o boost perfeito na intellisense do VSCode, maravilhoso, não? </p>
-  <li>Styled-Componentes:</li> 
+  <li>Styled-Components:</li> 
   <p>Foi pedido no projeto, deixa nosso projeto mais organizado e... CSS in JS é top demais, né?</p>
   <li>Axios:</li> 
   <p>Este também facilita nossa vida, nos poupando de reinventar a roda, além de estar no HYPE da galera kkk.</p>
